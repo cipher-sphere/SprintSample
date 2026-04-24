@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class SampleController {
 
-    @GetMapping("/person1")
+    @GetMapping("/Shivam")
     public String getMessage() {
-        return "Hi I am from machine of person 1";
+        return "Hi I am from machine of Shivam";
     }
 }
