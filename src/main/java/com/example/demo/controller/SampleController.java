@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class SampleController {
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     @GetMapping("/Shivam")
     public String getMessage() {
         return "Hi I am from machine of Shivam";
@@ -19,5 +20,10 @@ public class SampleController {
     public String getMessage1() {
         return "Hi I am from machine of person 2";
 >>>>>>> origin/shruti
+=======
+    @GetMapping("/vinayak")
+    public String getMessage() {
+        return "Hi I am from machine of vinayak";
+>>>>>>> origin/vinayak-branch
     }
 }
