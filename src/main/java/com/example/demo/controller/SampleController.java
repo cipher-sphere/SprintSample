@@ -8,6 +8,7 @@ public class SampleController {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @GetMapping("/Shivam")
     public String getMessage() {
         return "Hi I am from machine of Shivam";
@@ -25,5 +26,14 @@ public class SampleController {
     public String getMessage() {
         return "Hi I am from machine of vinayak";
 >>>>>>> origin/vinayak-branch
+=======
+
+    
+    @GetMapping("/garima")
+    public String getMessage1() {
+        return "Hi I am from machine garima ";
+
+>>>>>>> origin/garima
     }
+    
 }
