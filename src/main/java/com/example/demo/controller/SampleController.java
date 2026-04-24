@@ -17,6 +17,7 @@ public class SampleController {
     public String getMessage() {
         return "Hi I am from machine of person 1";
     }
+<<<<<<< HEAD
     @GetMapping("/person2")
     public String getMessage1() {
         return "Hi I am from machine of person 2";
@@ -36,4 +37,10 @@ public class SampleController {
 >>>>>>> origin/garima
     }
     
+=======
+    @GetMapping("/ashu")
+    public String getMessagefromashu() {
+        return "Hi I am ashu";
+    }
+>>>>>>> origin/ashu
 }
